@@ -1,0 +1,24 @@
+.circle{
+    background-color: #d93c49;
+    color: floralwhite;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid floralwhite;
+}
+
+.circle:hover{
+    border: 1px solid #d93c49;
+    background-color: floralwhite;
+    color: #d93c49;
+    transition: 0.8s;
+}
+
+.advn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 12%;
+    gap: 10px;
+}
