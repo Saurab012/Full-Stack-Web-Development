@@ -1,0 +1,33 @@
+body{
+    max-width: 80%;
+    margin : 0 auto;
+}
+.hero li{
+    display: inline;
+    padding: 10px;
+}
+
+legend{
+    background-color: #d93c49;
+    color: white;
+    padding: 3px 6px;
+}
+
+.multiple{
+    padding-left: 20px;
+}
+
+.mark{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+    border: 1px solid white;
+}
+
+.mark:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
