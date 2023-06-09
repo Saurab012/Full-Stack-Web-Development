@@ -1,0 +1,124 @@
+body{
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+#box1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 100%;
+    height: 43px;
+}
+
+.bnd{
+    height: 35px;
+}
+
+.lnk{
+    width: 422px;
+    height: 21px;
+}
+
+.lnk li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.lnk li a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 102px;
+    height: 43px;
+    border-radius: 30px;
+}
+
+button:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    width: 102px;
+    height: 43px;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+#box2{
+    padding-top: 87px;
+    padding-bottom: 93px;
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.medium{
+    text-transform: capitalize; 
+    font-style: normal;
+    font-size: 59px;
+    font-weight: 900;
+    line-height: 59px;
+    width: 478px;
+}
+
+.coast {
+    width: 433px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#box3 {
+    background-color: #ceb0cc;
+    padding: 0;
+}
+
+.el1, .el2, .el3 {
+    width: 350px;
+    height: 140px;
+}
+
+.ex1 {
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+}
+.ex1 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.ex1 h2::before{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    left:0px;
+
+}
+
+.eltotal {
+    display: flex;
+}
