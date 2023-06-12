@@ -1,3 +1,5 @@
+/* <----- Navigation -----> */
+
 body{
     font-family: 'Mukta', sans-serif;
     font-family: 'Outfit', sans-serif;
@@ -55,6 +57,8 @@ button:hover{
     transition: 0.8s;
 }
 
+/* <----- Hero -----> */
+
 #box2{
     padding-top: 87px;
     padding-bottom: 93px;
@@ -63,6 +67,10 @@ button:hover{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+
+#box2 img {
+    border-radius: 12px;
 }
 
 .medium{
@@ -81,21 +89,28 @@ button:hover{
     line-height: 28px;
 }
 
+/* <----- Features -----> */
+
 #box3 {
     background-color: #ceb0cc;
     padding: 0;
 }
 
-.el1, .el2, .el3 {
+.eclipse1, .eclipse2, .eclipse3 {
     width: 350px;
     height: 140px;
+    text-align: center;
+}
+
+.eclipse1, .eclipse2 {
+    padding-right: 28px;
 }
 
 .ex1 {
-    display: flex;
     position: relative;
-    padding-left: 50px;
+    padding-left: 115px;
 }
+
 .ex1 h2{
     font-family: 'Inter';
     font-style: normal;
@@ -104,10 +119,9 @@ button:hover{
     line-height: 28px;
     display: flex;
     align-items: center;
-    text-align: center;
     text-transform: capitalize;
-    color: #000000;
 }
+
 .ex1 h2::before{
     position: absolute;
     content: '';
@@ -115,10 +129,119 @@ button:hover{
     height: 40px;
     background-color: black;
     border-radius: 50%;
-    left:0px;
-
+    left:65px;
 }
 
 .eltotal {
     display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+
+/* <----- Contents Reference -----> */
+
+#box4 {
+    background-color: black;
+}
+
+.semi {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 80px 167px 67px;
+}
+
+.refer {
+    color: white;
+    width: 510px;
+    height: 350px;
+}
+
+.vistor {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.coast {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.yolo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 18px;
+    gap: 8px;
+}
+
+#box4 img {
+    border-radius: 20px;
+}
+
+/* <----- Testimonial -----> */
+
+#box5 {
+    /* width: 1109px; */
+    height: 495px;
+    padding: 80px 166px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.group4, .group5, .group6 {
+    background-color: black;
+    /* width: 349px;
+    height: 411px; */
+}
+
+.group4, .group5 {
+    margin-right: 30px;
+}
+
+.group4, .group5, .group6 {
+    color: white;
+    text-align: center;
+}
+
+#box5 .group4 img {
+    border-radius: 50%;
+}
+
+.Logo {
+    width: 160px;
+    height: 36px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 0 95px;
+}
+
+#box5 .group5 img {
+    border-radius: 50%;
+}
+
+#box5 .group6 img {
+    border-radius: 50%;
+}
+
+.group4 p {
+    width: 286px;
+    padding: 0 31px;
+}
+
+.group5 p {
+    width: 286px;
+    padding: 0 31px;
+}
+
+.group6 p {
+    width: 286px;
+    padding: 0 31px;
 }
