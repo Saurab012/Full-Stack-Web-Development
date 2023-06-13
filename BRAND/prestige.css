@@ -1,8 +1,15 @@
 /* <----- Navigation -----> */
 
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
 body{
     font-family: 'Mukta', sans-serif;
     font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #box1{
@@ -210,9 +217,13 @@ button:hover{
     text-align: center;
 }
 
-#box5 .group4 img {
+#box5 img {
     border-radius: 50%;
 }
+
+/* .group4 img {
+    margin-top: -50px;
+} */
 
 .Logo {
     width: 160px;
@@ -221,14 +232,6 @@ button:hover{
     flex-wrap: nowrap;
     justify-content: space-evenly;
     padding: 0 95px;
-}
-
-#box5 .group5 img {
-    border-radius: 50%;
-}
-
-#box5 .group6 img {
-    border-radius: 50%;
 }
 
 .group4 p {
@@ -244,4 +247,128 @@ button:hover{
 .group6 p {
     width: 286px;
     padding: 0 31px;
+}
+
+/* <----- CTA -----> */
+
+#box6 {
+    background: url('Cta.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 588px;
+}
+
+#box6 button {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 102px;
+    height: 43px;
+    border-radius: 30px;
+}
+
+#box6 button:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 102px;
+    height: 43px;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+.tags {
+    padding: 202px 420px;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adline {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.torn {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 100%;
+    text-transform: capitalize;
+    text-align: center;
+    width: 581px;
+}
+
+/* <----- Footer -----> */
+
+#box7 {
+    padding: 67px 167px;
+}
+
+.prett {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.prett img {
+    padding-top: 15px;
+}
+
+.mixed h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.mixed ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+} 
+
+.mixed {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+form {
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+    width: 349px;
+    height: 43px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+input {
+    line-height: 38px;
+    background-color: #d9d9d9;
+    border: 0px;
+}
+
+.mixed p {
+    width: 349px;
+    height: 40px;
 }
