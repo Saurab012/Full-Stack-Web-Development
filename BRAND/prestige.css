@@ -51,6 +51,7 @@ body{
 }
 
 .mad {
+    display: inline-block;
     font-family: 'Mukta', sans-serif;
     font-weight: 600;
     border: 1px solid black;
@@ -115,6 +116,30 @@ a:hover {
     font-size: 18px;
     line-height: 28px;
 }
+
+/* .cool {
+    display: inline-block;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 102px;
+    line-height: 43px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cool:hover {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    width: 102px;
+    line-height: 43px;
+    border-radius: 30px;
+    transition: 0.8s;
+} */
 
 /* <----- Features -----> */
 
@@ -279,23 +304,25 @@ a:hover {
     height: 588px;
 }
 
-#box6 button {
+.visit {
     font-family: 'Mukta', sans-serif;
     font-weight: 600;
     border: 1px solid black;
     background-color: black;
     color: white;
     width: 102px;
-    height: 43px;
+    line-height: 43px;
     border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
 }
 
-#box6 button:hover {
+.visit:hover {
     border: 1px solid white;
     background-color: transparent;
     color: white;
     width: 102px;
-    height: 43px;
+    line-height: 43px;
     border-radius: 30px;
     transition: 0.8s;
 }
